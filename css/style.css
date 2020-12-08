@@ -70,6 +70,8 @@ body {
     color: #fff;
     border: none;
     font-weight: 700;
+    outline: none;
+    cursor: pointer;
 }
 
 .title_main {
@@ -91,6 +93,8 @@ body {
     color: #fff;
     border: none;
     font-size: 24px;
+    outline: none;
+    cursor: pointer;
 }
 
 .page {
@@ -99,7 +103,7 @@ body {
     position: relative;
 }
 
-.page-top {
+.page_top {
     border-top: 1px solid #c2c2c2;
 }
 
@@ -147,7 +151,11 @@ body {
     line-height: 1.5;
 }
 
-
+.clients {
+    display: grid;
+    grid-template: 120px 120px / repeat(4, 25%);
+    text-align: center;
+}
 
 
 
