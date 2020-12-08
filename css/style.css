@@ -7,7 +7,7 @@ body {
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
@@ -15,6 +15,16 @@ body {
     align-items: center;
     box-sizing: border-box;
     font-weight: 700;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .nav {
@@ -29,7 +39,7 @@ body {
     margin-left: 15px;
 }
 
-.nav>li>a {
+.nav > li > a {
     text-decoration: none;
     color: #202020;
 }
@@ -44,7 +54,7 @@ body {
     display: block;
     width: 50px;
     height: 50px;
-    /*margin-right: 20px;*/
+    margin-right: 5px;
 }
 
 .logo_text {
@@ -59,17 +69,83 @@ body {
     padding: 10px 15px;
     color: #fff;
     border: none;
+    font-weight: 700;
 }
 
+.title_main {
+    font-size: 56px;
+    color: #202020;
+    font-weight: 700;
+}
 
+.text_main {
+    font-size: 32px;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
 
+.button {
+    background-color: #5528ff;
+    border-radius: 10px;
+    padding: 10px 45px;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+}
 
+.page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
 
+.page-top {
+    border-top: 1px solid #c2c2c2;
+}
 
+.page h2 {
+    position: absolute;
+    top: -26px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 5px 15px;
+    color: #c2c2c2;
+    text-transform: uppercase;
+}
 
+.services {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
 
+.services_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.serv_img {
+    width: 100px;
+    height: 75px;
+    margin-right: 25px;
+    text-align: center;
+}
 
+.services_text {
+    flex-basis: calc(100% - 120px);
+}
+
+.services h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.services p {
+    font-size: 14px;
+    color: #b2b2b2;
+    line-height: 1.5;
+}
 
 
 
