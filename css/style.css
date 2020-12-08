@@ -153,13 +153,32 @@ body {
 
 .clients {
     display: grid;
-    grid-template: 120px 120px / repeat(4, 25%);
+    grid-template: repeat(2, 1fr) / repeat(4, 25%);
     text-align: center;
+    grid-row-gap: 40px;
 }
 
+.team {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 33%);
+    grid-row-gap: 40px;
+}
 
+.team_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
 
+.team_item img {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
-
-
+.team_item > div {
+    flex-basis: calc(100% - 140px);
+}
 
